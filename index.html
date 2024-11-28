@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Mosaic Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Emoji Mosaic Generator</h1>
+    <p>Upload an image to transform it into a ton of emojis!</p>
+  </header>
+  <main>
+    <section class="upload-section">
+      <form id="uploadForm" method="POST" action="index.php" enctype="multipart/form-data">
+        <input type="file" id="imageInput" name="image" accept="image/*" required>
+        <button id="generateButton" type="button">Generate Mosaic</button>
+        <br>
+        <button id="uploadButton" type="submit">there was an error</button>
+        <p id="errorMessage"></p>
+      </form>
+    </section>
+    <section class="mosaic-section">
+      <canvas id="imageCanvas"></canvas>
+      <div id="emojiMosaic"></div>
+      <button id="downloadButton">Download Mosaic</button>
+    </section>
+</main>
+<footer>
+  <p>Built with blood, sweat, and tears from Rice</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

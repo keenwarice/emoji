@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  background: #6c63ff;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+main {
+  margin: 20px;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #554bda;
+}
+
+#mosaic-section {
+  margin-top: 20px;
+}
+
+canvas {
+  display: none;
+}
+
+#emojiMosaic {
+  white-space: pre;
+  font-family: monospace;
+  margin-top: 10px;
+  overflow-wrap: break-word;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
